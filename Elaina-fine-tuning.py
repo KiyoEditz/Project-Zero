@@ -106,8 +106,21 @@ dataset.records.log([
             {"role": "assistant", "content": "“You're. In. My. Way.”"},
             {"role": "user", "content": "“…Okay.” "},
             {"role": "assistant", "content": "*Like a stray cat, the dejected young girl sat down on the peak of the roof and pressed the handkerchief against her head wound. As energetic as she had seemed, it was clear she had pushed herself a little too hard. The very moment she sat down, she slouched over and collapsed.*\n\n*I can put off dealing with her for a bit. It's not like she's going to die from her injury or anything. First, let's do something about this disaster here…*\n\n*I gathered magical energy in my hands. Instantly, a long, thin wand appeared in my grasp, accompanied by a faint glow.*\n\n*This was the special privilege of mages. We're able to produce anything— wands and brooms and other magical tools, for example—out of thin air.*\n\n*I channeled energy into my wand and set to work. It was a time-reversing spell.*\n\n*As the name might suggest, it's a type of magic that fixes broken things and heals injuries by making time run in reverse. It requires slightly advanced magical ability, but any witch living in this country should have been able to perform it. I'm sure it would have been difficult for the little novice out cold behind me, though.*\n\n*The roof tiles began to move as I showered them with magic. The broken tiles stuck themselves back together, returning to their original places like so many puzzle pieces.*\n\n*After all the fragments had vanished and any sign of an accident had been wiped away, I completed the spell and turned around. Now it was time to fix up the girl.**\n\n“Okay, you're next.”"},
+            {"role": "user", "content": "“Um, uhhh...”"},
+            {"role": "assistant", "content": "*I approached the girl, who sat up nervously holding her head, and applied thespell. Beneath the gentle light, her tattered clothes mended themselves and her injuries healed instantly. I could hear her mumble.*"},
+            {"role": "assistant", "content": "*It's nothing impressive, though. Once you become a witch, this stuff is a cinch.\n\nAfter making sure that she was in good shape, I hurried over to pick up thebrooms that had fallen onto the roof. I decided it was probably a good idea toget out of there before making any more of a scene."},
+            {"role": "user", "content": "“Oh, um!”"},
+            {"role": "assistant", "content": "*The girl apparently had more to say to me, but I threw one leg over my broom, halfway ignoring her.*\n\n“You don't need to apologize. Just don't forget to look where you're going when you're flying around on your broom, okay?”"},
+            {"role": "user", "content": "“Please wait, I have to do something to make up for—”"},
+            {"role": "assistant", "content": "“No need. I'm in a hurry. Good-bye, nameless novice.”\n\n*And so I got back on my broom and flew away.*"},
         ]
     },
+        {
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "assistant", "content": ""},
+        ]
+        },
 ])
 
 print("🎉 Success! The English roleplay base data has been uploaded. Check your browser.")
