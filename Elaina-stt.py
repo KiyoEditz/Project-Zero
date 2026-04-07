@@ -11,7 +11,7 @@ engine.setProperty('rate', 150)  # Kecepatan bicara
 engine.setProperty('voice', engine.getProperty('voices')[1].id)  # Biasanya suara wanita
 
 # Inisialisasi Gemini
-client = genai.Client(api_key="AIzaSyCMksiOphT0x6OnDsTpeq_vfSfMInoqqJI")
+client = genai.Client(api_key="")
 
 model = "gemini-2.0-flash-thinking-exp-01-21"
 
